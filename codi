@@ -1,10 +1,10 @@
 int main() {
 int x;
-int y;
-if (y==x+1) {
+int y; // y és menor que x
+if (x==y+1) {
 printf("Els nombres són consecutius");
 }
 else {
- printf ("Els nombres són consecutius");
+ printf ("Els nombres no són consecutius");
  }
 }
